@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-CommerceDemoProject">
+	<test name="Ecommerce">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.EcomDemo.TestCases.TC_PrintOrder_007"/>-->
+			<!--  <class name="com.EcomDemo.TestCases.TC_ShareWishList_005"/>-->
+			<class name="com.EcomDemo.TestCases.TC_SortMobiles_001" />
+			<!-- <class name="com.EcomDemo.TestCases.TC_CompareMobiles_004"/>-->
+			<!--  <class name="com.EcomDemo.TestCases.TC_VerifyErrMsg_003"/>-->
+			<!-- <class name="com.EcomDemo.TestCases.TC_PriceCompare_002"/>-->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

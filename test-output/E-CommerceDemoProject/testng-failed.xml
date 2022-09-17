@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E-CommerceDemoProject]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ecommerce(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.EcomDemo.TestCases.TC_SortMobiles_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="LaunchBrowser"/>
+          <include name="SortMobiles"/>
+        </methods>
+      </class> <!-- com.EcomDemo.TestCases.TC_SortMobiles_001 -->
+    </classes>
+  </test> <!-- Ecommerce(failed) -->
+</suite> <!-- Failed suite [E-CommerceDemoProject] -->
